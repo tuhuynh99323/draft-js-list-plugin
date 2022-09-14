@@ -1,5 +1,5 @@
 {
-	"name": "@draft-js-plugins/list",
+	"name": "@beincomm/draft-js-plugins-list",
 	"version": "1.0.3",
 	"description": "Better lists for Draft.js",
 	"keywords": [
