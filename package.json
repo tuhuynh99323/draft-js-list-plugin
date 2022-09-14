@@ -41,7 +41,7 @@
 	},
 	"dependencies": {},
 	"peerDependencies": {
-		"@types/draft-js": "0.10.0",
+		"@types/draft-js": "0.11.9",
 		"@types/react": "16.0.0",
 		"draft-js": "0.11.7",
 		"draft-js-plugins-editor": "3.0.0",
@@ -52,7 +52,7 @@
 		"@samuelmeuli/prettier-config": "1.0.0",
 		"@samuelmeuli/stylelint-config": "3.0.0",
 		"@samuelmeuli/tsconfig": "1.0.0",
-		"@types/draft-js": "0.10.38",
+		"@types/draft-js": "0.11.9",
 		"@types/react": "16.9.23",
 		"@types/react-dom": "16.9.5",
 		"@typescript-eslint/eslint-plugin": "2.21.0",
