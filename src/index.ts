@@ -1,3 +1,4 @@
+import { EditorPlugin, PluginFunctions } from "@draft-js-plugins/editor";
 import {
 	DraftEditorCommand,
 	DraftHandleValue,
@@ -5,7 +6,6 @@ import {
 	getDefaultKeyBinding,
 	RichUtils,
 } from "draft-js";
-import { EditorPlugin, PluginFunctions } from "draft-js-plugins-editor";
 import { KeyboardEvent } from "react";
 
 import { shouldEnterOl, shouldEnterUl, startList } from "./lists";

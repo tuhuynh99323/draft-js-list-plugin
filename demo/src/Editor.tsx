@@ -1,7 +1,7 @@
 import "draft-js/dist/Draft.css";
 
+import PluginEditor from "@draft-js-plugins/editor";
 import { DraftEditorCommand, DraftHandleValue, EditorState, RichUtils } from "draft-js";
-import PluginEditor from "draft-js-plugins-editor";
 import React, { ReactElement, useState } from "react";
 
 import createListPlugin from "../../src/index";

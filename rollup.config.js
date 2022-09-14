@@ -61,14 +61,19 @@ export default [
 			commonjs({
 				include: ["node_modules/**"],
 				namedExports: {
-					"./node_modules/react/index.js": ["useState"],
+					"./node_modules/react/index.js": ["useState", "Component"],
 					"./node_modules/draft-js/lib/Draft.js": [
 						"EditorState",
+						"ContentState",
 						"getDefaultKeyBinding",
 						"Modifier",
 						"RichUtils",
 						"SelectionState",
+						"CompositeDecorator",
+						"DefaultDraftBlockRenderMap",
+						"Editor",
 					],
+					"node_modules/immutable/dist/immutable.js": ["List", "Map"],
 				},
 			}),
 			typescript(),
