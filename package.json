@@ -38,7 +38,8 @@
 		"format": "prettier --write",
 		"version": "yarn build",
 		"release": "np",
-		"prerelease": "yarn install && build"
+		"prepare": "yarn build",
+		"prerelease": "yarn build"
 	},
 	"dependencies": {},
 	"peerDependencies": {
