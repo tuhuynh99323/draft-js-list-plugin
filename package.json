@@ -42,10 +42,10 @@
 	"dependencies": {},
 	"peerDependencies": {
 		"@types/draft-js": "0.11.9",
-		"@types/react": "16.0.0",
+		"@types/react": "17.0.38",
 		"draft-js": "0.11.7",
 		"draft-js-plugins-editor": "3.0.0",
-		"react": "16.0.0"
+		"react": "17.0.2"
 	},
 	"devDependencies": {
 		"@samuelmeuli/eslint-config": "^6.0.0",
