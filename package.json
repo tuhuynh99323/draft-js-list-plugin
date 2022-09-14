@@ -37,7 +37,8 @@
 		"lint:ts": "eslint --ext .ts,.tsx --fix --max-warnings 0",
 		"format": "prettier --write",
 		"version": "yarn build",
-		"release": "np"
+		"release": "np",
+		"prerelease": "yarn build"
 	},
 	"dependencies": {},
 	"peerDependencies": {
@@ -123,5 +124,8 @@
 		"hooks": {
 			"pre-commit": "yarn test && lint-staged"
 		}
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
