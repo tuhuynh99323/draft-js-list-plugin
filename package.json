@@ -1,6 +1,6 @@
 {
 	"name": "@beincom/draft-js-plugins-list",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "Better lists for Draft.js",
 	"keywords": [
 		"react",
