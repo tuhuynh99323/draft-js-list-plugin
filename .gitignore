@@ -2,3 +2,4 @@ demo/**/*.js
 demo/**/*.js.map
 dist/
 node_modules/
+.idea/

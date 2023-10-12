@@ -1,6 +1,6 @@
 {
-	"name": "@draft-js-plugins/list",
-	"version": "1.0.3",
+	"name": "@beincom/draft-js-plugins-list",
+	"version": "1.0.5",
 	"description": "Better lists for Draft.js",
 	"keywords": [
 		"react",
@@ -42,25 +42,18 @@
 		"prerelease": "yarn build"
 	},
 	"dependencies": {},
-	"peerDependencies": {
-		"@types/draft-js": "0.11.9",
-		"@types/react": "17.0.38",
-		"draft-js": "0.11.7",
-		"@draft-js-plugins/editor": "4.1.2",
-		"react": "17.0.2"
-	},
 	"devDependencies": {
+		"@draft-js-plugins/editor": "4.1.2",
 		"@samuelmeuli/eslint-config": "^6.0.0",
 		"@samuelmeuli/prettier-config": "1.0.0",
 		"@samuelmeuli/stylelint-config": "3.0.0",
 		"@samuelmeuli/tsconfig": "1.0.0",
 		"@types/draft-js": "0.11.9",
-		"@types/react": "16.9.23",
-		"@types/react-dom": "16.9.5",
+		"@types/react": "18.2.28",
+		"@types/react-dom": "18.2.13",
 		"@typescript-eslint/eslint-plugin": "2.21.0",
 		"@typescript-eslint/parser": "2.21.0",
 		"draft-js": "0.11.7",
-		"@draft-js-plugins/editor": "4.1.2",
 		"eslint": "6.8.0",
 		"eslint-config-airbnb": "18.0.1",
 		"eslint-config-prettier": "6.10.0",
@@ -73,8 +66,8 @@
 		"np": "6.2.0",
 		"npm-run-all": "4.1.5",
 		"prettier": "1.19.1",
-		"react": "16.13.0",
-		"react-dom": "16.13.0",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
 		"rollup": "1.31.1",
 		"rollup-plugin-commonjs": "10.0.2",
 		"rollup-plugin-node-resolve": "5.2.0",
