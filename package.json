@@ -1,6 +1,6 @@
 {
 	"name": "@beincomm/draft-js-plugins-list",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Better lists for Draft.js",
 	"keywords": [
 		"react",
@@ -44,9 +44,9 @@
 	"peerDependencies": {
 		"@draft-js-plugins/editor": "4.1.2",
 		"@types/draft-js": "0.11.9",
-		"@types/react": "17.0.38",
+		"@types/react": "18.2.28",
 		"draft-js": "0.11.7",
-		"react": "17.0.2"
+		"react": "18.2.0"
 	},
 	"devDependencies": {
 		"@draft-js-plugins/editor": "4.1.2",
